@@ -1,0 +1,20 @@
+{
+    "name": "gitzwt/think-captcha-1.1",
+    "description": "thinkphp5.0 验证码类库,支持cache存储,方便api调用",
+    "authors": [
+        {
+            "name": "gitzwt",
+            "email": "zwt0706@gmail.com"
+        }
+    ],
+    "license": "Apache-2.0",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "think\\captcha\\": "src/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    }
+}
